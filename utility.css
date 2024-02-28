@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+}
+.border{
+    border: 2px solid  rebeccapurple;
+}
+
+.align-content{
+ align-items: center;
+}
+
+.m-1{
+    margin-top: 8px;
+}
+.p-1{
+    padding: 20px;
+}/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Set the color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Set the color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox supports scrollbar styling using `scrollbar-color` and `scrollbar-width` properties (as of my last knowledge update in January 2022). However, browser support may have changed since then. */
+  
+  /* Example for Firefox */
+  /* Uncomment the following lines if Firefox supports these properties */
+  /*
+    scrollbar-color: #333 #222;
+    scrollbar-width: thin;
+  */
+  
